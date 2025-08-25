@@ -1,5 +1,5 @@
 {
-  "name": "react-native-rn-camera-roll-fetcher-ios",
+  "name": "rn-camera-roll-fetcher-ios",
   "version": "0.1.0",
   "description": "A lightweight React Native TurboModule that converts iOS ph:// asset URIs (from the Photos framework) into actual local file URIs (file://). Useful when working with image/video pickers, uploads, or any feature where you need the real file path instead of the abstract ph:// scheme.",
   "main": "./lib/module/index.js",
@@ -15,46 +15,39 @@
   "files": [
     "src",
     "lib",
-    "android",
     "ios",
     "cpp",
     "*.podspec",
     "react-native.config.js",
     "!ios/build",
-    "!android/build",
-    "!android/gradle",
-    "!android/gradlew",
-    "!android/gradlew.bat",
-    "!android/local.properties",
     "!**/__tests__",
     "!**/__fixtures__",
     "!**/__mocks__",
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-rn-camera-roll-fetcher-ios-example",
+    "example": "yarn workspace rn-camera-roll-fetcher-ios-example",
     "test": "jest",
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
-    "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build lib",
+    "clean": "del-cli example/ios/build lib",
     "prepare": "bob build",
     "release": "release-it --only-version"
   },
   "keywords": [
     "react-native",
-    "ios",
-    "android"
+    "ios"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SolankiYogesh/react-native-rn-camera-roll-fetcher-ios.git"
+    "url": "git+https://github.com/SolankiYogesh/rn-camera-roll-fetcher-ios.git"
   },
   "author": "SolankiYogesh <solankiyogesh3500@gmail.com> (https://github.com/SolankiYogesh)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SolankiYogesh/react-native-rn-camera-roll-fetcher-ios/issues"
+    "url": "https://github.com/SolankiYogesh/rn-camera-roll-fetcher-ios/issues"
   },
-  "homepage": "https://github.com/SolankiYogesh/react-native-rn-camera-roll-fetcher-ios#readme",
+  "homepage": "https://github.com/SolankiYogesh/rn-camera-roll-fetcher-ios#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -151,10 +144,7 @@
   "codegenConfig": {
     "name": "RnCameraRollFetcherIosSpec",
     "type": "modules",
-    "jsSrcsDir": "src",
-    "android": {
-      "javaPackageName": "com.rncamerarollfetcherios"
-    }
+    "jsSrcsDir": "src"
   },
   "create-react-native-library": {
     "languages": "kotlin-objc",

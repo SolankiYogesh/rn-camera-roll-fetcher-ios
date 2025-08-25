@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-rn-camera-roll-fetcher-ios": ["./src/index"]
+      "rn-camera-roll-fetcher-ios": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

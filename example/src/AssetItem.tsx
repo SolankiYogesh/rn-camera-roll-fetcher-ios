@@ -1,7 +1,7 @@
 import type { PhotoIdentifier } from '@react-native-camera-roll/camera-roll';
 import { memo, useState } from 'react';
 import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import { getFileUri } from 'react-native-rn-camera-roll-fetcher-ios';
+import { getFileUri } from 'rn-camera-roll-fetcher-ios';
 
 interface Props {
   asset: PhotoIdentifier;

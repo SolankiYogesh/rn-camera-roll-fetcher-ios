@@ -13,7 +13,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>📷 Camera Roll Assets</Text>
+      <Text style={styles.header}>Camera Roll Assets</Text>
       <FlatList
         data={photos?.edges ?? []}
         renderItem={({ item }) => <AssetItem asset={item} />}

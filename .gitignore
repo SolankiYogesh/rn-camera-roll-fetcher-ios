@@ -30,17 +30,6 @@ DerivedData
 project.xcworkspace
 **/.xcode.env.local
 
-# Android/IJ
-#
-.classpath
-.cxx
-.gradle
-.idea
-.project
-.settings
-local.properties
-android.iml
-
 # Cocoapods
 #
 example/ios/Pods
@@ -58,8 +47,6 @@ yarn-error.log
 # BUCK
 buck-out/
 \.buckd/
-android/app/libs
-android/keystores/debug.keystore
 
 # Yarn
 .yarn/*
@@ -80,7 +67,6 @@ lib/
 
 # React Native Codegen
 ios/generated
-android/generated
 
 # React Native Nitro Modules
 nitrogen/

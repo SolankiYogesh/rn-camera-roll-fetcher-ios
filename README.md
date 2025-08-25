@@ -1,26 +1,22 @@
-# react-native-rn-camera-roll-fetcher-ios
+# rn-camera-roll-fetcher-ios
 
 A lightweight React Native TurboModule that converts iOS ph:// asset URIs (from the Photos framework) into actual local file URIs (file://). Useful when working with image/video pickers, uploads, or any feature where you need the real file path instead of the abstract ph:// scheme.
 
 ## Installation
 
-
 ```sh
-npm install react-native-rn-camera-roll-fetcher-ios
+npm install rn-camera-roll-fetcher-ios
 ```
-
 
 ## Usage
 
-
 ```js
-import { multiply } from 'react-native-rn-camera-roll-fetcher-ios';
+import { multiply } from 'rn-camera-roll-fetcher-ios';
 
 // ...
 
 const result = multiply(3, 7);
 ```
-
 
 ## Contributing
 
