@@ -1,5 +1,5 @@
 import RnCameraRollFetcherIos from './NativeRnCameraRollFetcherIos';
 
-export function multiply(a: number, b: number): number {
-  return RnCameraRollFetcherIos.multiply(a, b);
+export function getFileUri(phUri: string): Promise<string | null> {
+  return RnCameraRollFetcherIos.getFileUri(phUri);
 }
